@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: system-ui, sans-serif;
+  }
+
+  body {
+    @apply bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100;
+  }
+}
+
+@layer components {
+  .prose {
+    @apply max-w-none dark:prose-invert;
+  }
+
+  /* Headings */
+  .prose h1 {
+    @apply text-4xl font-extrabold mt-8 mb-4 tracking-tight dark:text-white;
+  }
+  .prose h2 {
+    @apply text-3xl font-bold mt-8 mb-3 tracking-tight dark:text-gray-100;
+  }
+  .prose h3 {
+    @apply text-2xl font-semibold mt-6 mb-2 dark:text-gray-100;
+  }
+  .prose h4 {
+    @apply text-xl font-semibold mt-4 mb-2 dark:text-gray-100;
+  }
+
+  /* Blockquotes */
+  .prose blockquote {
+    @apply border-l-4 border-primary-500 pl-6 italic text-gray-700 bg-gray-50 py-2 px-4 rounded-md my-6 dark:text-gray-200 dark:bg-gray-800 dark:border-primary-400;
+  }
+
+  /* Inline code */
+  .prose code {
+    @apply bg-gray-100 text-pink-600 px-1 py-0.5 rounded text-sm font-mono dark:bg-gray-900 dark:text-pink-400;
+  }
+
+  /* Code blocks */
+  .prose pre {
+    @apply bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto dark:bg-gray-800 dark:text-gray-100;
+  }
+  .prose pre code {
+    @apply bg-transparent text-inherit p-0;
+  }
+}

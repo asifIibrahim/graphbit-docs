@@ -1,0 +1,5 @@
+{
+  "/(docs)/page": "app/(docs)/page.js",
+  "/(docs)/agents/page": "app/(docs)/agents/page.js",
+  "/(docs)/common-tools/page": "app/(docs)/common-tools/page.js"
+}
