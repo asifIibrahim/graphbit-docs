@@ -1,3 +1,4 @@
+"use client";
 import { getHighlighter } from "shiki";
 
 let highlighter: any = null;
@@ -5,7 +6,7 @@ let highlighter: any = null;
 export async function getHighlighterInstance() {
   if (!highlighter) {
     highlighter = await getHighlighter({
-      theme: "github-dark",
+      themes: ["github-dark"],
       langs: [
         "javascript",
         "typescript",
