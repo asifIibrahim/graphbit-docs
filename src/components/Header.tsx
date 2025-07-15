@@ -70,40 +70,10 @@ export default function Header() {
             {/* Desktop Navigation */}
             <nav className="hidden md:flex space-x-8">
               <Link
-                href="/agents"
+                href="/docs"
                 className="text-gray-600 hover:text-primary-600 transition-colors"
               >
-                Agents
-              </Link>
-              <Link
-                href="/graphs"
-                className="text-gray-600 hover:text-primary-600 transition-colors"
-              >
-                Graphs
-              </Link>
-              <Link
-                href="/examples"
-                className="text-gray-600 hover:text-primary-600 transition-colors"
-              >
-                Examples
-              </Link>
-              <Link
-                href="/model-providers"
-                className="text-gray-600 hover:text-primary-600 transition-colors"
-              >
-                Model Providers
-              </Link>
-              <Link
-                href="/common-tools"
-                className="text-gray-600 hover:text-primary-600 transition-colors"
-              >
-                Tools
-              </Link>
-              <Link
-                href="/multi-agent"
-                className="text-gray-600 hover:text-primary-600 transition-colors"
-              >
-                Multi-Agent
+                Docs
               </Link>
             </nav>
 
@@ -145,40 +115,10 @@ export default function Header() {
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 border-t border-gray-200">
               <Link
-                href="/agents"
+                href="/docs"
                 className="block px-3 py-2 text-gray-600 hover:text-primary-600 transition-colors"
               >
-                Agents
-              </Link>
-              <Link
-                href="/graphs"
-                className="block px-3 py-2 text-gray-600 hover:text-primary-600 transition-colors"
-              >
-                Graphs
-              </Link>
-              <Link
-                href="/examples"
-                className="block px-3 py-2 text-gray-600 hover:text-primary-600 transition-colors"
-              >
-                Examples
-              </Link>
-              <Link
-                href="/model-providers"
-                className="block px-3 py-2 text-gray-600 hover:text-primary-600 transition-colors"
-              >
-                Model Providers
-              </Link>
-              <Link
-                href="/common-tools"
-                className="block px-3 py-2 text-gray-600 hover:text-primary-600 transition-colors"
-              >
-                Tools
-              </Link>
-              <Link
-                href="/multi-agent"
-                className="block px-3 py-2 text-gray-600 hover:text-primary-600 transition-colors"
-              >
-                Multi-Agent
+                Docs
               </Link>
             </div>
           </div>

@@ -7,27 +7,29 @@ import { NavigationItem } from "@/types";
 const navigation: NavigationItem[] = [
   {
     title: "Getting Started",
-    href: "/",
+    href: "/docs",
   },
   {
     title: "Core Concepts",
+    href: "",
     children: [
-      { title: "Agents", href: "/agents" },
-      { title: "Graphs", href: "/graphs" },
-      { title: "Model Providers", href: "/model-providers" },
-      { title: "Model Context", href: "/model-context" },
+      { title: "Agents", href: "/docs/agents" },
+      { title: "Graphs", href: "/docs/graphs" },
+      { title: "Model Providers", href: "/docs/model-providers" },
+      { title: "Model Context", href: "/docs/model-context" },
     ],
   },
   {
     title: "Advanced Topics",
+    href: "",
     children: [
-      { title: "Multi-Agent Systems", href: "/multi-agent" },
-      { title: "Common Tools", href: "/common-tools" },
+      { title: "Multi-Agent Systems", href: "/docs/multi-agent" },
+      { title: "Common Tools", href: "/docs/common-tools" },
     ],
   },
   {
     title: "Examples",
-    href: "/examples",
+    href: "/docs/examples",
   },
 ];
 

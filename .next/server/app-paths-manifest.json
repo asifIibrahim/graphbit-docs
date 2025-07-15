@@ -1,5 +1,8 @@
 {
-  "/(docs)/page": "app/(docs)/page.js",
-  "/(docs)/agents/page": "app/(docs)/agents/page.js",
-  "/(docs)/common-tools/page": "app/(docs)/common-tools/page.js"
+  "/not-found": "app/not-found.js",
+  "/page": "app/page.js",
+  "/docs/page": "app/docs/page.js",
+  "/docs/graphs/page": "app/docs/graphs/page.js",
+  "/docs/agents/page": "app/docs/agents/page.js",
+  "/docs/model-providers/page": "app/docs/model-providers/page.js"
 }
