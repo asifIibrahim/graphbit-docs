@@ -1,80 +1,112 @@
-# Graphbit Documentation
+# Graphbit Docs
 
-A modern documentation website for the Graphbit agentic AI framework, built with Next.js 14, TypeScript, and Tailwind CSS.
+A modern, beautiful documentation and landing page for the **Graphbit agentic AI framework**. Built with Next.js 14, TypeScript, Tailwind CSS, and Lottie animations for a premium, professional developer experience.
 
-## Features
+[![Next.js](https://img.shields.io/badge/Next.js-14-blue?logo=nextdotjs)](https://nextjs.org/) [![TypeScript](https://img.shields.io/badge/TypeScript-4.x-blue?logo=typescript)](https://www.typescriptlang.org/) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.x-38bdf8?logo=tailwindcss)](https://tailwindcss.com/) [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-- **Server-Side Rendering**: Optimized for SEO with full SSR
-- **Markdown Support**: Content written in Markdown with syntax highlighting
-- **Responsive Design**: Mobile-first design with Tailwind CSS
-- **TypeScript**: Fully typed codebase
-- **Modern UI**: Clean, professional design inspired by modern documentation sites
+---
 
-## Getting Started
+## ✨ Features
 
-### Prerequisites
+- **Stunning Landing Page**: Professional, animated hero section with Lottie and SVG, inspired by top AI SaaS sites
+- **Beautiful Docs UI**: Sidebar navigation, markdown rendering, and code highlighting
+- **Mobile-First & Responsive**: Fully responsive, smooth scrolling, and interactive cards
+- **Lottie Animations**: Fast, local Lottie for instant hero animation
+- **TypeScript & Tailwind**: Modern, maintainable stack
+- **Easy Customization**: Swap logos, colors, and content in minutes
 
-- Node.js 18+
-- npm or yarn
+---
 
-### Installation
+## 🚀 Quick Start
 
-1. Clone the repository:
+### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone git@github.com:asifIibrahim/graphbit-docs.git
 cd graphbit-docs
 ```
 
-2. Install dependencies:
+### 2. Install Dependencies
 
 ```bash
 npm install
 ```
 
-3. Run the development server:
+### 3. Run the Development Server
 
 ```bash
 npm run dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+Visit [http://localhost:3000](http://localhost:3000) to view your site.
 
-## Project Structure
+### 4. Build for Production
+
+```bash
+npm run build
+npm run start
+```
+
+---
+
+## 🗂️ Project Structure
 
 ```
 src/
-├── app/                    # Next.js App Router
-│   ├── (docs)/            # Documentation routes
-│   ├── globals.css        # Global styles
-│   └── layout.tsx         # Root layout
-├── components/            # React components
-├── content/              # Markdown documentation
-├── lib/                  # Utility functions
-└── types/               # TypeScript types
+├── app/                # Next.js App Router (landing page, docs, layouts)
+│   ├── docs/           # Documentation routes and pages
+│   ├── page.tsx        # Landing page (with Lottie animation)
+│   └── layout.tsx      # Root layout
+├── components/         # Reusable React components (Header, Sidebar, etc.)
+├── content/            # Markdown documentation files
+├── lib/                # Utility functions (markdown, shiki, etc.)
+├── types/              # TypeScript types
+└── app/hero-lottie.json# Local Lottie animation for hero section
 ```
 
-## Available Scripts
+---
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run start` - Start production server
-- `npm run lint` - Run ESLint
+## 📝 Content Management
 
-## Content Management
+- All documentation is written in Markdown (`src/content/`).
+- Each `.md` file maps to a docs page (e.g., `agents.md` → `/docs/agents`).
+- Landing page content is in `src/app/page.tsx` (edit for your brand, animation, and hero text).
 
-Documentation content is stored in Markdown files in the `src/content/` directory. Each file corresponds to a documentation page.
+---
 
-## Customization
+## 🎨 Customization
 
-- **Styling**: Modify `tailwind.config.ts` and `src/app/globals.css`
-- **Components**: Edit components in `src/components/`
-- **Content**: Update Markdown files in `src/content/`
+- **Logo & Branding**: Edit the SVG in `src/app/page.tsx` or swap in your own.
+- **Colors & Styles**: Update `tailwind.config.ts` and `globals.css`.
+- **Hero Animation**: Replace `src/app/hero-lottie.json` with your own Lottie file.
+- **Docs Content**: Edit Markdown files in `src/content/`.
 
-## Deployment
+---
 
-The project can be deployed to Vercel, Netlify, or any other Next.js-compatible hosting platform.
+## 🌐 Deployment
 
-## License
+Deploy to [Vercel](https://vercel.com/), [Netlify](https://www.netlify.com/), or any Next.js-compatible host.
 
-MIT License
+```bash
+npm run build
+npm run start
+```
+
+---
+
+## 📄 License
+
+[MIT](LICENSE)
+
+---
+
+## 🙏 Credits
+
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [LottieFiles](https://lottiefiles.com/)
+- [Shiki](https://shiki.matsu.io/)
+
+---
+
+> Made with ❤️ for the Graphbit community.
